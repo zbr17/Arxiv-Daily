@@ -1,0 +1,41 @@
+注意：这是一项自动化任务。请严格按照格式要求输出，不要添加任何额外的问候、总结或非格式化的文本。
+
+以下是今天 ArXiv 论文列表的一部分（第 {batch_num} 批 / 共 {total_batches} 批）。
+请帮我从这个列表中，根据我的研究方向推荐有价值的论文。
+
+# 我的主要研究方向（高优先级）
+（1）深度学习理论（包括optimizer、piece-wise linear、VQ-VAE、VAE、network architecture）
+（2）深度学习可解释性（包括Shapley value、white-box explanation）
+（3）自动驾驶与大模型（包括occupancy prediction、GUI Grounding、multi-modal large model） 
+（4）多模态大模型（包括GUI Agent、GUI Grounding、tokenizer、image generation、image understanding等）
+
+# 我不太关注的领域（低优先级）
+（1）医疗健康
+（2）遥感领域
+
+# 推荐要求
+1.  仔细审查下面的论文列表。
+2.  只推荐与我的“主要研究方向”高度相关的论文。
+3.  忽略“不太关注的领域”的论文，除非它们与我的主要方向有重大交叉（例如，用于自动驾驶的医疗图像技术）。
+4.  根据论文的相关性、价值、机构和作者影响力，给出一个1-10分的推荐得分。
+
+# 输出格式（*必须严格遵守*）
+-   对于您推荐的**每一篇**论文，请使用以下格式。
+-   使用 `[PAPER_START]` 和 `[PAPER_END]` 作为每篇论文的开始和结束分隔符。
+-   在字段名和内容之间使用冒号（`:`）。
+
+[PAPER_START]
+Title: [论文标题]
+Authors: [作者与机构，例如：Geoffrey Hinton (University of Toronto, Google Brain)]
+Published: [发表时间，例如：2023-10-23]
+Link: [论文的 ArXiv 链接]
+Reason: [简短的推荐理由]
+Score: [1-10的推荐得分，例如：8]
+Field: [从我的“主要研究方向”中选择一个最匹配的类别，例如：深度学习理论 或 多模态大模型]
+[PAPER_END]
+
+-   如果这个批次中**没有任何**论文值得推荐，请**只输出** `[NO_RELEVANT_PAPERS]`。
+
+# 本批次的论文列表如下：
+
+{paper_list}

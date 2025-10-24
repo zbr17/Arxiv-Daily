@@ -1,533 +1,454 @@
 # ArXiv 每日推荐
 
-> 更新于北京时间：2025-10-23 23:51:12
-> 已自动阅读了 215 篇最新的论文。
-> 使用模型：doubao-seed-1-6-thinking-250715 | 消耗 Tokens：110291
+> 更新于北京时间：2025-10-24 12:28:26
+> 已自动阅读了 252 篇最新的论文。
+> 使用模型：doubao-seed-1-6-thinking-250715 | 消耗 Tokens：135081
 
 ## 快速导航
 
+- [Multi-modal large models](#multi-modal-large-models)
+- [Deep learning theory](#deep-learning-theory)
 - [多模态大模型](#多模态大模型)
 - [深度学习理论](#深度学习理论)
-- [自动驾驶与大模型](#自动驾驶与大模型)
 - [深度学习可解释性](#深度学习可解释性)
+- [自动驾驶与大模型](#自动驾驶与大模型)
+- [Autonomous driving and large models](#autonomous-driving-and-large-models)
+
+<h2 id='multi-modal-large-models'>Multi-modal large models</h2>
+
+### [Score: 10.0/10] UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning
+- **Authors:** Liangyu Chen, Hanzhang Zhou, Chenglin Cai, Jianan Zhang, Panrong Tong, Quyu Kong, Xu Zhang, Chen Liu, Yuqi Liu, Wenxuan Wang, Yue Wang, Qin Jin, Steven Hoi
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20286](https://arxiv.org/abs/2510.20286)
+- **Reason:** Introduces an Instruction-as-Reasoning framework for GUI grounding, directly addressing a core capability of GUI agents. Achieves state-of-the-art on 5 benchmarks (e.g., 87.3% on UI-I2E-Bench) and demonstrates agentic potential on AndroidWorld.
+Score: 10
+Field: Multi-modal large models
+
+### [Score: 9.0/10] RAPO++: Cross-Stage Prompt Optimization for Text-to-Video Generation via Data Alignment and Test-Time Scaling
+- **Authors:** Bingjie Gao, Qianli Ma, Xiaoxue Wu, Shuai Yang, Guanzhou Lan, Haonan Zhao, Jiaxuan Chen, Qingyang Liu, Yu Qiao, Xinyuan Chen, Yaohui Wang, Li Niu
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20206](https://arxiv.org/abs/2510.20206)
+- **Reason:** Unifies training-data alignment, test-time scaling, and LLM fine-tuning to improve text-to-video generation. Authors include Yu Qiao (renowned) and achieves state-of-the-art on multiple benchmarks with model-agnostic design.
+Score: 9
+Field: Multi-modal large models
+
+### [Score: 9.0/10] Conan: Progressive Learning to Reason Like a Detective over Multi-Scale Visual Evidence
+- **Authors:** Kun Ouyang, Yuanxin Liu, Linli Yao, Yishuo Cai, Hao Zhou, Jie Zhou, Fandong Meng, Xu Sun
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20470](https://arxiv.org/abs/2510.20470)
+- **Reason:** Proposes an evidence-grounded video reasoning framework for MLLMs, using RL and a 91K dataset (Conan-91K) to improve multi-step deduction. Outperforms Qwen2.5-VL by 10% on average across reasoning benchmarks.
+Score: 9
+Field: Multi-modal large models
+
+### [Score: 8.0/10] Exposing Blindspots: Cultural Bias Evaluation in Generative Image Models
+- **Authors:** Huichan Seo, Sieun Choi, Minki Hong, Yi Zhou, Junseo Kim, Lukman Ismaila, Naome Etori, Mehul Agarwal, Zhixuan Liu, Jihie Kim, Jean Oh
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20042](https://arxiv.org/abs/2510.20042)
+- **Reason:** Provides a unified evaluation of cultural bias in T2I/I2I models, addressing a critical gap in generative AI fairness. Introduces a reproducible benchmark and reveals limitations in current systems' cultural fidelity.
+Score: 8
+Field: Multi-modal large models
+
+### [Score: 8.0/10] HyperET: Efficient Training in Hyperbolic Space for Multi-modal Large Language Models
+- **Authors:** Zelin Peng, Zhengqin Xu, Qingyang Liu, Xiaokang Yang, Wei Shen
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20322](https://arxiv.org/abs/2510.20322)
+- **Reason:** Leverages hyperbolic space to align visual-textual granularity in MLLMs, improving training efficiency with <1% extra parameters. Enhances performance across MLLM benchmarks for pre-training/fine-tuning.
+Score: 8
+Field: Multi-modal large models
+
+### [Score: 7.0/10] StableSketcher: Enhancing Diffusion Model for Pixel-based Sketch Generation via Visual Question Answering Feedback
+- **Authors:** Jiho Park, Sieun Choi, Jaeyoon Seo, Jihie Kim
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20093](https://arxiv.org/abs/2510.20093)
+- **Reason:** Improves diffusion-based sketch generation using VQA feedback and a custom VAE, addressing limitations in abstract image synthesis. Introduces SketchDUO, the first instance-level sketch-text-QA dataset.
+Score: 7
+Field: Multi-modal large models
+
+### [Score: 7.0/10] FlowCycle: Pursuing Cycle-Consistent Flows for Text-based Editing
+- **Authors:** Yanghao Wang, Zhen Wang, Long Chen
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20212](https://arxiv.org/abs/2510.20212)
+- **Reason:** Uses cycle-consistent flow models for inversion-free text-based image editing, addressing diffusion models' approximation errors. Achieves superior fidelity/consistency over SOTA diffusion baselines.
+Score: 7
+Field: Multi-modal large models
+
+<h2 id='deep-learning-theory'>Deep learning theory</h2>
+
+### [Score: 9.0/10] Attentive Convolution: Unifying the Expressivity of Self-Attention with Convolutional Efficiency
+- **Authors:** Hao Yu, Haoyu Chen, Yan Jiang, Wei Peng, Zhaodong Sun, Samuel Kaski, Guoying Zhao
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20092](https://arxiv.org/abs/2510.20092)
+- **Reason:** Reinvents convolution with self-attention principles (adaptive routing, lateral inhibition) to create Attentive Convolution (ATConv). Achieves state-of-the-art on ImageNet and diffusion models with 3x3 kernels, advancing network architecture design.
+Score: 9
+Field: Deep learning theory
+
+### [Score: 9.0/10] Positional Encoding Field
+- **Authors:** Yunpeng Bai, Haoxiang Li, Qixing Huang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20385](https://arxiv.org/abs/2510.20385)
+- **Reason:** Extends positional encodings to a 3D field for Diffusion Transformers (DiTs), enabling volumetric reasoning and fine-grained control. Achieves state-of-the-art on novel view synthesis and spatial editing.
+Score: 9
+Field: Deep learning theory
+
+### [Score: 8.0/10] IB-GAN: Disentangled Representation Learning with Information Bottleneck Generative Adversarial Networks
+- **Authors:** Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20165](https://arxiv.org/abs/2510.20165)
+- **Reason:** Integrates the information bottleneck principle into GANs for disentangled representation learning. Outperforms InfoGAN and η-VAEs on disentanglement metrics and sample quality (FID on CelebA/3D Chairs).
+Score: 8
+Field: Deep learning theory
+
+### [Score: 8.0/10] EditInfinity: Image Editing with Binary-Quantized Generative Models
+- **Authors:** Jiahuan Wang, Yuxin Chen, Jun Yu, Guangming Lu, Wenjie Pei
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20217](https://arxiv.org/abs/2510.20217)
+- **Reason:** Adapts binary-quantized VQ models (Infinity) for image editing, leveraging exact intermediate representations to avoid diffusion inversion errors. Outperforms diffusion baselines on PIE-Bench across "add/change/delete" tasks.
+Score: 8
+Field: Deep learning theory
+
+### [Score: 8.0/10] AccuQuant: Simulating Multiple Denoising Steps for Quantizing Diffusion Models
+- **Authors:** Seunghoon Lee, Jeongwoo Choi, Byunggwan Son, Jaehyeon Moon, Jeimin Jeon, Bumsub Ham
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20348](https://arxiv.org/abs/2510.20348)
+- **Reason:** Addresses diffusion model quantization by simulating multi-step denoising to reduce error accumulation. Reduces memory complexity from O(n) to O(1) and improves performance across tasks/models.
+Score: 8
+Field: Deep learning theory
 
 <h2 id='多模态大模型'>多模态大模型</h2>
 
-### [Score: 9.0/10] PruneHal: Reducing Hallucinations in Multi-modal Large Language Models through Adaptive KV Cache Pruning
-- **Authors:** Fengyuan Sun, Hui Chen, Xinhao Xu, Dandan Zheng, Jingdong Chen, Jun Zhou, Jungong Han, Guiguang Ding
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19183](https://arxiv.org/abs/2510.19183)
-- **Reason:** 针对多模态大模型的幻觉问题，提出自适应KV缓存剪枝方法，无需额外训练即可增强模型对关键视觉信息的关注，是多模态大模型鲁棒性优化的重要工作。
+### [Score: 9.0/10] Metis-HOME: Hybrid Optimized Mixture-of-Experts for Multimodal Reasoning
+- **Authors:** Xiaohan Lan, Fanfan Liu, Haibo Qiu, Siqi Yang, Delian Ruan Pan, Shi Lin Ma
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20519](https://arxiv.org/abs/2510.20519)
+- **Reason:** 构建混合专家框架解决多模态推理中"推理-泛化"权衡问题，通过动态路由分配查询至最优专家分支，显著提升复杂推理与通用理解能力，属于多模态大模型核心推理研究，实验效果优异。
 Score: 9
 Field: 多模态大模型
 
-### [Score: 8.0/10] PoSh: Using Scene Graphs To Guide LLMs-as-a-Judge For Detailed Image Descriptions
-- **Authors:** Amith Ananthram, Elias Stengel-Eskin, Lorena A. Bradford, Julia Demarest, Adam Purvis, Keith Krut, Robert Stein, Rina Elster Pantalony, Mohit Bansal, Kathleen McKeown
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19060](https://arxiv.org/abs/2510.19060)
-- **Reason:** 提出基于场景图的LLM评估指标PoSh，用于细粒度图像描述的质量评估，解决VLMs图像理解中的评估难题，属于多模态大模型的图像理解方向。
+### [Score: 9.0/10] Diagnosing Visual Reasoning: Challenges, Insights, and a Path Forward
+- **Authors:** Jing Bi, Guangyu Sun, Ali Vosoughi, Chen Chen, Chenliang Xu
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20696](https://arxiv.org/abs/2510.20696)
+- **Reason:** 系统分析多模态大模型的视觉推理缺陷，提出agent-based架构整合LLM与轻量视觉模块，显著提升推理性能，属于多模态大模型下的视觉推理研究，开源框架支持后续研究。
+Score: 9
+Field: 多模态大模型
+
+### [Score: 9.0/10] Mixing Importance with Diversity: Joint Optimization for KV Cache Compression in Large Vision-Language Models
+- **Authors:** Xuyang Liu, Xiyan Gui, Yuchao Zhang, Linfeng Zhang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20707](https://arxiv.org/abs/2510.20707)
+- **Reason:** 提出MixKV解决大视觉语言模型的KV缓存内存瓶颈，通过平衡重要性与多样性提升压缩效果，在GUI Grounding任务上取得8%-9%性能提升，属于多模态大模型与自动驾驶的交叉研究。
+Score: 9
+Field: 多模态大模型
+
+### [Score: 9.0/10] SheafAlign: A Sheaf-theoretic Framework for Decentralized Multimodal Alignment
+- **Authors:** Abdulmomen Ghalkha, Zhuojun Tian, Chaouki Ben Issaid, Mehdi Bennis
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20540](https://arxiv.org/abs/2510.20540)
+- **Reason:** Introduces a sheaf-theoretic framework for decentralized multimodal alignment that avoids the mutual redundancy assumption, directly relevant to multi-modal large model alignment research.
+Score: 9
+Field: 多模态大模型
+
+### [Score: 9.0/10] Surfer 2: The Next Generation of Cross-Platform Computer Use Agents
+- **Authors:** Mathieu Andreux, Mårten Bakler, Yanael Barbier, Hamza Ben Chekroun, Emilien Biré, Antoine Bonnet, Riaz Bordie, Nathan Bout, Matthias Brunel, Aleix Cambray, Pierre-Louis Cedoz, Antoine Chassang, Gautier Cloix, Ethan Connelly, Alexandra Constantinou, Ramzi De Coster, Hubert de la Jonquière, Aurélien Delfosse, Maxime Delpit, Alexis Deprez, Augustin Derupti, Mathieu Diaz, Shannon D'Souza, Julie Dujardin, Abai Edmund, Michael Eickenberg, Armand Fatalot, Wissem Felissi, Isaac Herring, Xavier Koegler, Erwan Le Jumeau de Kergaradec, Aurélien Lac, Maxime Langevin, Corentin Lauverjat, Antonio Loison, Avshalom Manevich, Axel Moyal, Axel Nguyen Kerbel, Marinela Parovic, Julien Revelle, Guillaume Richard, Mats Richter, Ronan Riochet, María Santos, Romain Savidan, Laurent Sifre, Maxime Theillard, Marc Thibault, Ivan Valentini, Tony Wu, Laura Yie, Kai Yuan, Jevgenij Zubovskij
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19949](https://arxiv.org/abs/2510.19949)
+- **Reason:** Presents a cross-platform computer use agent (Surfer 2) using visual observations, which is a GUI Agent—directly relevant to multi-modal large models (GUI Agent) and autonomous systems.
+Score: 9
+Field: 多模态大模型
+
+### [Score: 8.0/10] EchoDistill: Bidirectional Concept Distillation for One-Step Diffusion Personalization
+- **Authors:** Yixiong Yang, Tao Wu, Senmao Li, Shiqi Yang, Yaxing Wang, Joost van de Weijer, Kai Wang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20512](https://arxiv.org/abs/2510.20512)
+- **Reason:** 针对单步扩散模型个性化难题，提出双向概念蒸馏框架，通过师生模型协同训练提升新概念捕捉能力与生成质量，属于多模态大模型下的图像生成研究，方法创新且实验验证有效。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] Unified Reinforcement and Imitation Learning for Vision-Language Models
-- **Authors:** Byung-Kwan Lee, Ryo Hachiuma, Yong Man Ro, Yu-Chiang Frank Wang, Yueh-Hua Wu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19307](https://arxiv.org/abs/2510.19307)
-- **Reason:** 提出统一强化与模仿学习（RIL）算法，训练轻量型视觉语言模型，提升VLMs的生成能力，属于多模态大模型的训练优化方向。
+### [Score: 8.0/10] Open-o3 Video: Grounded Video Reasoning with Explicit Spatio-Temporal Evidence
+- **Authors:** Jiahao Meng, Xiangtai Li, Haochen Wang, Yue Tan, Tao Zhang, Lingdong Kong, Yunhai Tong, Anran Wang, Zhiyang Teng, Yujing Wang, Zhuochen Wang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20579](https://arxiv.org/abs/2510.20579)
+- **Reason:** 提出非代理框架将显式时空证据融入视频推理，通过构建时空标注数据集与强化学习策略提升推理的时空接地性，属于多模态大模型下的视频理解研究，实验性能优于现有方法。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] DaMo: Data Mixing Optimizer in Fine-tuning Multimodal LLMs for Mobile Phone Agents
-- **Authors:** Kai Shi, Jun Yang, Ni Yang, Binqiang Pan, Qingsong Xie, Chao Zhang, Zhenyu Yang, Tianhuang Su, Haonan Lu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19336](https://arxiv.org/abs/2510.19336)
-- **Reason:** 提出数据混合优化器DaMo，用于多模态大模型的微调，针对手机Agent场景设计，属于多模态大模型中的GUI Agent方向。
+### [Score: 8.0/10] GenColorBench: A Color Evaluation Benchmark for Text-to-Image Generation Models
+- **Authors:** Muhammad Atif Butt, Alexandra Gomez-Villa, Tao Wu, Javier Vazquez-Corral, Joost Van De Weijer, Kai Wang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20586](https://arxiv.org/abs/2510.20586)
+- **Reason:** 构建首个针对文本到图像生成的颜色评估基准，覆盖400+颜色与44K prompt，填补颜色精确性评估空白，对多模态大模型的图像生成优化具有重要价值。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] Seeing Across Views: Benchmarking Spatial Reasoning of Vision-Language Models in Robotic Scenes
-- **Authors:** Zhiyuan Feng, Zhaolu Kang, Qijie Wang, Zhiying Du, Jiongrui Yan, Shubin Shi, Chengbo Yuan, Huizhi Liang, Yu Deng, Qixiu Li, Rushuai Yang, Arctanx An, Leqi Zheng, Weijie Wang, Shawn Chen, Sicheng Xu, Yaobo Liang, Jiaolong Yang, Baining Guo
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19400](https://arxiv.org/abs/2510.19400)
-- **Reason:** 提出MV-RoboBench基准，评估VLMs在机器人场景中的多视图空间推理能力，属于多模态大模型的空间理解方向。
+### [Score: 8.0/10] SeViCES: Unifying Semantic-Visual Evidence Consensus for Long Video Understanding
+- **Authors:** Yuan Sheng, Yanbin Hao, Chenxu Li, Shuo Wang, Xiangnan He
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20622](https://arxiv.org/abs/2510.20622)
+- **Reason:** 提出语义-视觉共识证据选择框架，通过双分支选择与共识优化解决长视频信息过载问题，提升推理准确性与鲁棒性，属于多模态大模型下的视频理解研究，实验效果显著。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] The Intricate Dance of Prompt Complexity, Quality, Diversity, and Consistency in T2I Models
-- **Authors:** Xiaofeng Zhang, Aaron Courville, Michal Drozdzal, Adriana Romero-Soriano
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19557](https://arxiv.org/abs/2510.19557)
-- **Reason:** 系统分析prompt复杂度对T2I模型生成质量、多样性与一致性的影响，属于多模态大模型中的图像生成方向。
+### [Score: 8.0/10] UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset
+- **Authors:** Chen Zhao, En Ci, Yunzhe Xu, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20661](https://arxiv.org/abs/2510.20661)
+- **Reason:** 构建超高清图像合成数据集UltraHR-100K，结合频率感知后训练方法提升细节生成质量，填补超高清数据空白，属于多模态大模型下的图像生成研究。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] Decomposed Attention Fusion in MLLMs for Training-Free Video Reasoning Segmentation
-- **Authors:** Su Ho Han, Jeongseok Hyun, Pilhyeon Lee, Minho Shim, Dongyoon Wee, Seon Joo Kim
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19592](https://arxiv.org/abs/2510.19592)
-- **Reason:** 针对多模态大语言模型（MLLMs）的无训练视频推理分割任务，提出分解注意力融合方法优化注意力图，属于多模态大模型的核心应用研究。
+### [Score: 8.0/10] DyPE: Dynamic Position Extrapolation for Ultra High Resolution Diffusion
+- **Authors:** Noam Issachar, Guy Yariv, Sagie Benaim, Yossi Adi, Dani Lischinski, Raanan Fattal
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20766](https://arxiv.org/abs/2510.20766)
+- **Reason:** 提出动态位置外推方法解决扩散Transformer的自注意力二次复杂度问题，支持超高清图像生成，属于多模态大模型下的图像生成研究，方法创新且效果显著。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] I Spy With My Model's Eye: Visual Search as a Behavioural Test for MLLMs
-- **Authors:** John Burden, Jonathan Prunty, Ben Slater, Matthieu Tehenan, Greg Davis, Lucy Cheke
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19678](https://arxiv.org/abs/2510.19678)
-- **Reason:** 利用视觉搜索范式测试多模态大模型的感知能力，结合可解释性分析（如fine-tuning和机制解释），覆盖多模态大模型与可解释性两个核心方向。
+### [Score: 8.0/10] Small Drafts, Big Verdict: Information-Intensive Visual Reasoning via Speculation
+- **Authors:** Yuhan Liu, Lianhui Qin, Shengjie Wang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20812](https://arxiv.org/abs/2510.20812)
+- **Reason:** 提出推测性判决框架，通过小模型draft与大模型verdict解决信息密集型视觉推理问题，提升准确性与效率，属于多模态大模型下的视觉推理研究。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] OmniMotion-X: Versatile Multimodal Whole-Body Motion Generation
-- **Authors:** Guowei Xu, Yuxuan Bian, Ailing Zeng, Mingyi Shi, Shaoli Huang, Wen Li, Lixin Duan, Qiang Xu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19789](https://arxiv.org/abs/2510.19789)
-- **Reason:** 提出多模态全身运动生成框架，支持text-to-motion、music-to-dance等任务，属于多模态大模型的核心应用方向。
+### [Score: 8.0/10] LayerComposer: Interactive Personalized T2I via Spatially-Aware Layered Canvas
+- **Authors:** Guocheng Gordon Qian, Ruihang Zhang, Tsai-Shien Chen, Yusuf Dalva, Anujraaj Argo Goyal, Willi Menapace, Ivan Skorokhodov, Meng Dong, Arpit Sahni, Daniil Ostashev, Ju Hu, Sergey Tulyakov, Kuan-Chieh Jackson Wang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/251o.20820](https://arxiv.org/abs/251o.20820)
+- **Reason:** 提出分层画布框架解决个性化文本到图像的空间控制问题，支持多主体生成的身份保留与空间精确调整，属于多模态大模型下的图像生成研究，方法创新。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] GigaBrain-0: A World Model-Powered Vision-Language-Action Model
-- **Authors:** GigaBrain Team, Angen Ye, Boyuan Wang, Chaojun Ni, Guan Huang, Guosheng Zhao, Haoyun Li, Jie Li, Jiagang Zhu, Lv Feng, Peng Li, Qiuping Deng, Runqi Ouyang, Wenkang Qin, Xinze Chen, Xiaofeng Wang, Yang Wang, Yifan Li, Yilong Li, Yiran Ding, Yuan Xu, Yun Ye, Yukun Zhou, Zhehao Dong, Zhenan Wang, Zhichao Liu, Zheng Zhu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19430](https://arxiv.org/abs/2510.19430)
-- **Reason:** 提出世界模型驱动的视觉-语言-动作（VLA）基础模型，通过生成数据减少对真实机器人数据的依赖，提升跨任务泛化能力，属于多模态大模型中的VLA方向。
+### [Score: 8.0/10] HoloCine: Holistic Generation of Cinematic Multi-Shot Long Video Narratives
+- **Authors:** Yihao Meng, Hao Ouyang, Yue Yu, Qiuyu Wang, Wen Wang, Ka Leong Cheng, Hanlin Wang, Yixuan Li, Cheng Chen, Yanhong Zeng, Yujun Shen, Huamin Qu
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20822](https://arxiv.org/abs/2510.20822)
+- **Reason:** 提出HoloCine生成电影级多镜头长视频叙事，通过窗口交叉注意力与稀疏跨镜头注意力提升叙事一致性，属于多模态大模型下的视频生成研究，实验效果显著。
 Score: 8
 Field: 多模态大模型
 
-### [Score: 8.0/10] LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments
-- **Authors:** Hongyu Ding, Ziming Xu, Yudong Fang, You Wu, Zixuan Chen, Jieqi Shi, Jing Huo, Yifan Zhang, Yang Gao
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19655](https://arxiv.org/abs/2510.19655)
-- **Reason:** 提出语言-视觉-机器人动作分层翻译框架，利用多模态大模型的推理与接地能力解决零-shot连续环境视觉语言导航问题，属于多模态大模型中的语言-视觉-动作对齐方向。
+### [Score: 8.0/10] Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models
+- **Authors:** Rui Zhu, Song-Lin Lv, Zi-Kang Wang, Lan-Zhe Guo
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20477](https://arxiv.org/abs/2510.20477)
+- **Reason:** Proposes a bi-consistency-guided self-training method for vision-language models (VLMs) to address model bias and hyperparameter sensitivity, which is highly relevant to multi-modal large model research.
 Score: 8
 Field: 多模态大模型
 
-### [Score: 7.0/10] MoAlign: Motion-Centric Representation Alignment for Video Diffusion Models
-- **Authors:** Aritra Bhowmik, Denis Korzhenkov, Cees G. M. Snoek, Amirhossein Habibian, Mohsen Ghafoorian
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19022](https://arxiv.org/abs/2510.19022)
-- **Reason:** 针对视频扩散模型的运动一致性问题，提出运动中心的表示对齐框架，优化视频生成的时间连贯性，属于多模态大模型中的图像/视频生成方向。
-Score: 7
+### [Score: 8.0/10] Large Multimodal Models-Empowered Task-Oriented Autonomous Communications: Design Methodology and Implementation Challenges
+- **Authors:** Hyun Jong Yang, Hyunsoo Kim, Hyeonho Noh, Seungnyun Kim, Byonghyo Shim
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20637](https://arxiv.org/abs/2510.20637)
+- **Reason:** Explores large multimodal models (LMMs) for task-oriented autonomous communications, demonstrating superior performance over conventional methods—relevant to multi-modal large model applications.
+Score: 8
 Field: 多模态大模型
 
-### [Score: 7.0/10] Video Consistency Distance: Enhancing Temporal Consistency for Image-to-Video Generation via Reward-Based Fine-Tuning
-- **Authors:** Takehiro Aoshima, Yusuke Shinohara, Park Byeongseon
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19193](https://arxiv.org/abs/2510.19193)
-- **Reason:** 提出视频一致性距离（VCD）指标，通过奖励式微调优化图像到视频生成的时间连贯性，属于多模态大模型中的图像/视频生成方向。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Reasoning Like Experts: Leveraging Multimodal Large Language Models for Drawing-based Psychoanalysis
-- **Authors:** Xueqi Ma, Yanbei Jiang, Sarah Erfani, James Bailey, Weifeng Liu, Krista A. Ehinger, Jey Han Lau
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19451](https://arxiv.org/abs/2510.19451)
-- **Reason:** 提出PICK框架，利用多模态大模型分析绘画的心理状态，结合层次化表示与知识注入，属于多模态大模型的图像理解方向。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] CARES: Context-Aware Resolution Selector for VLMs
-- **Authors:** Moshe Kimhi, Nimrod Shabtay, Raja Giryes, Chaim Baskin, Eli Schwartz
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19496](https://arxiv.org/abs/2510.19496)
-- **Reason:** 提出上下文感知的分辨率选择器CARES，优化VLMs的图像输入分辨率，提升计算效率与性能平衡，属于多模态大模型的优化方向。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] [De|Re]constructing VLMs' Reasoning in Counting
-- **Authors:** Simone Alghisi, Gabriel Roccabruna, Massimo Rizzoli, Seyed Mahed Mousavi, Giuseppe Riccardi
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19555](https://arxiv.org/abs/2510.19555)
-- **Reason:** 研究VLMs在计数任务中的推理机制，通过层分析与目标微调提升计数准确性，属于多模态大模型的视觉推理方向。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] A Matter of Time: Revealing the Structure of Time in Vision-Language Models
-- **Authors:** Nidham Tekaya, Manuela Waldner, Matthias Zeppelzauer
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19559](https://arxiv.org/abs/2510.19559)
-- **Reason:** 研究VLMs的时间感知能力，提出从嵌入空间中提取时间线表示，属于多模态大模型的时间推理方向。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models
-- **Authors:** Xiaozhen Qiao, Jingkai Zhao, Yuqiu Jiang, Xianda Guo, Zhe Sun, Hongyuan Zhang, Xuelong Li
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19802](https://arxiv.org/abs/2510.19802)
-- **Reason:** 提出CPL-NC框架优化视觉语言模型的测试时适应，解决长-tailed分布与类混淆问题，属于多模态大模型的泛化研究。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Pico-Banana-400K: A Large-Scale Dataset for Text-Guided Image Editing
-- **Authors:** Yusu Qian, Eli Bocek-Rivele, Liangchen Song, Jialing Tong, Yinfei Yang, Jiasen Lu, Wenze Hu, Zhe Gan
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19808](https://arxiv.org/abs/2510.19808)
-- **Reason:** 构建大规模文本引导图像编辑数据集，支持多模态大模型中的image generation任务，为研究提供重要数据资源。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Steering Autoregressive Music Generation with Recursive Feature Machines
-- **Authors:** Daniel Zhao, Daniel Beaglehole, Taylor Berg-Kirkpatrick, Julian McAuley, Zachary Novack
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19127](https://arxiv.org/abs/2510.19127)
-- **Reason:** 提出MusicRFM框架控制预训练音乐生成模型，实现fine-grained、可解释的音乐生成，属于多模态大模型中的可控生成研究。
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] A Survey on Cache Methods in Diffusion Models: Toward Efficient Multi-Modal Generation
-- **Authors:** Jiacheng Liu, Xinyu Wang, Yuqi Lin, Zhikai Wang, Peiru Wang, Peiliang Cai, Qinming Zhou, Zhengan Yan, Zexuan Yan, Zhengyi Shi, Chang Zou, Yue Ma, Linfeng Zhang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19755](https://arxiv.org/abs/2510.19755)
-- **Reason:** 系统综述扩散模型的缓存方法，分析从静态到动态复用的进化，对多模态生成中的高效推理有指导意义，属于多模态大模型方向
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Semantic World Models
-- **Authors:** Jacob Berg, Chuning Zhu, Yanda Bao, Ishan Durugkar, Abhishek Gupta
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19818](https://arxiv.org/abs/2510.19818)
-- **Reason:** 提出语义世界模型，将世界建模视为视觉问答问题结合VLM实现规划，对多模态大模型的世界建模有价值
-Score: 7
-Field: 多模态大模型
-
-### [Score: 7.0/10] Learning Affordances at Inference-Time for Vision-Language-Action Models
-- **Authors:** Ameesh Shah, William Chen, Adwait Godbole, Federico Mora, Sanjit A. Seshia, Sergey Levine
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19752](https://arxiv.org/abs/2510.19752)
-- **Reason:** 提出LITEN框架，通过上下文视觉语言模型在推理时学习VLA模型的affordances，增强复杂任务的适应能力，属于多模态大模型中的VLA推理优化方向。
-Score: 7
+### [Score: 8.0/10] Amplifying Prominent Representations in Multimodal Learning via Variational Dirichlet Process
+- **Authors:** Tsai Hor Chan, Feng Wu, Yihang Chen, Guosheng Yin, Lequan Yu
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20736](https://arxiv.org/abs/2510.20736)
+- **Reason:** Proposes a Dirichlet process (DP)-driven framework for multimodal learning that balances prominent intra-modal representation learning and cross-modal alignment—directly relevant to multi-modal large model fusion.
+Score: 8
 Field: 多模态大模型
 
 <h2 id='深度学习理论'>深度学习理论</h2>
 
-### [Score: 9.0/10] Statistical Inference for Linear Functionals of Online Least-squares SGD when $t \gtrsim d^{1+\delta}$
-- **Authors:** Bhavya Agrawalla, Krishnakumar Balasubramanian, Promit Ghosal
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19734](https://arxiv.org/abs/2510.19734)
-- **Reason:** 建立在线最小二乘SGD线性泛函的非渐近Berry-Esseen界，解决高维情况下的统计推断问题，对深度学习理论中优化器（SGD）理论有重要突破
+### [Score: 9.0/10] AlphaFlow: Understanding and Improving MeanFlow Models
+- **Authors:** Huijie Zhang, Aliaksandr Siarohin, Willi Menapace, Michael Vasilkovsky, Sergey Tulyakov, Qing Qu, Ivan Skorokhodov
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20771](https://arxiv.org/abs/2510.20771)
+- **Reason:** 分解MeanFlow目标函数并提出α-Flow框架，通过课程学习解决优化冲突，显著提升生成模型收敛速度与性能，属于深度学习理论下的生成模型优化研究，实验取得SOTA结果。
 Score: 9
 Field: 深度学习理论
 
-### [Score: 8.0/10] Addressing the Depth-of-Field Constraint: A New Paradigm for High Resolution Multi-Focus Image Fusion
-- **Authors:** Luca Piano, Peng Huanwen, Radu Ciprian Bilcu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19581](https://arxiv.org/abs/2510.19581)
-- **Reason:** 提出VAEEDOF方法，将蒸馏变分自动编码器用于多焦点图像融合，直接关联深度学习理论中的VAE研究方向，解决深度-of-field约束问题。
+### [Score: 9.0/10] ARGenSeg: Image Segmentation with Autoregressive Image Generation Model
+- **Authors:** Xiaolong Wang, Lixiang Ru, Ziyuan Huang, Kaixiang Ji, Dandan Zheng, Jingdong Chen, Jun Zhou
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20803](https://arxiv.org/abs/2510.20803)
+- **Reason:** 提出基于自回归生成的分割框架，利用VQ-VAE将视觉token解码为图像，提升分割细粒度理解，属于深度学习理论下的VQ-VAE研究与多模态大模型下的图像理解交叉领域，实验效果优于SOTA。
+Score: 9
+Field: 深度学习理论
+
+### [Score: 9.0/10] Beyond the Ideal: Analyzing the Inexact Muon Update
+- **Authors:** Egor Shulgin, Sultan AlRashed, Francesco Orabona, Peter Richtárik
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/25lo.19933](https://arxiv.org/abs/25lo.19933)
+- **Reason:** 针对Muon优化器的理论-实践 gap，分析不精确更新的影响并提出参数调优策略，属于深度学习理论下的优化器研究，实验验证结论有效性。
+Score: 9
+Field: 深度学习理论
+
+### [Score: 9.0/10] No Compute Left Behind: Rethinking Reasoning and Sampling with Masked Diffusion Models
+- **Authors:** Zachary Horvitz, Raghav Singhal, Hao Zou, Carles Domingo-Enrich, Zhou Yu, Rajesh Ranganath, Kathleen McKeown
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19990](https://arxiv.org/abs/2510.19990)
+- **Reason:** 重新思考掩码扩散模型的推理与采样，提出reasoning-as-infilling与多token熵解码，提升推理性能与效率，属于深度学习理论下的生成模型研究，实验效果显著。
+Score: 9
+Field: 深度学习理论
+
+### [Score: 9.0/10] Convergence Analysis of SGD under Expected Smoothness
+- **Authors:** Yuta Kawamoto, Hideaki Iiduka
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20608](https://arxiv.org/abs/2510.20608)
+- **Reason:** Provides a self-contained convergence analysis of stochastic gradient descent (SGD) under expected smoothness, refining existing theory and deriving explicit bounds—core to deep learning theory (optimizer).
+Score: 9
+Field: 深度学习理论
+
+### [Score: 9.0/10] Connecting Jensen-Shannon and Kullback-Leibler Divergences: A New Bound for Representation Learning
+- **Authors:** Reuben Dorent, Polina Golland, William Wells III
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20644](https://arxiv.org/abs/2510.20644)
+- **Reason:** Derives a tight lower bound connecting Jensen-Shannon (JS) and Kullback-Leibler (KL) divergences for representation learning, providing theoretical justification for discriminative mutual information (MI) estimation—core to deep learning theory.
+Score: 9
+Field: 深度学习理论
+
+### [Score: 8.0/10] On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization
+- **Authors:** Shaocong Ma, Heng Huang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19953](https://arxiv.org/abs/2510.19953)
+- **Reason:** 提出无偏梯度估计器解决零阶优化的偏差问题，分析最优扰动分布与步长，属于深度学习理论下的优化器研究，实验效果优于现有方法。
 Score: 8
 Field: 深度学习理论
 
-### [Score: 8.0/10] ADPO: Anchored Direct Preference Optimization
-- **Authors:** Wang Zixian
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.18913](https://arxiv.org/abs/2510.18913)
-- **Reason:** 提出ADPO框架扩展DPO，解决偏好优化中的噪声与稳定性问题，属于深度学习理论中的优化器研究方向。
+### [Score: 8.0/10] Revisiting Zeroth-Order Optimization: Minimum-Variance Two-Point Estimators and Directionally Aligned Perturbations
+- **Authors:** Shaocong Ma, Heng Huang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19975](https://arxiv.org/abs/2510.19975)
+- **Reason:** 研究零阶优化的两点估计器，提出方向对齐扰动提升估计精度，属于深度学习理论下的优化器研究，实验验证有效。
 Score: 8
 Field: 深度学习理论
 
-### [Score: 8.0/10] BAPO: Stabilizing Off-Policy Reinforcement Learning for LLMs via Balanced Policy Optimization with Adaptive Clipping
-- **Authors:** Zhiheng Xi, Xin Guo, Yang Nan, Enyu Zhou, Junrui Shen, Wenxiang Chen, Jiaqi Liu, Jixuan Huang, Zhihao Zhang, Honglin Guo, Xun Deng, Zhikai Lei, Miao Zheng, Guoteng Wang, Shuo Zhang, Peng Sun, Rui Zheng, Hang Yan, Tao Gui, Qi Zhang, Xuanjing Huang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.18927](https://arxiv.org/abs/2510.18927)
-- **Reason:** 提出BAPO方法稳定LLMs的off-policy RL优化，解决政策熵下降与优化不稳定问题，属于深度学习理论中的优化器核心研究。
+### [Score: 8.0/10] From Masks to Worlds: A Hitchhiker's Guide to World Models
+- **Authors:** Jinbin Bai, Yu Lei, Hecong Wu, Yuchen Zhu, Shufan Li, Yi Xin, Xiangtai Li, Molei Tao, Aditya Grover, Ming-Hsuan Yang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20668](https://arxiv.org/abs/2510.20668)
+- **Reason:** Guides building world models from masked models to interactive generative systems, covering representation learning and generative models—relevant to deep learning theory (network architecture, generative models).
 Score: 8
 Field: 深度学习理论
 
-### [Score: 8.0/10] Position: Many generalization measures for deep learning are fragile
-- **Authors:** Shuofeng Zhang, Ard Louis
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.18934](https://arxiv.org/abs/2510.18934)
-- **Reason:** 分析深度学习泛化度量的脆弱性，指出多种度量对训练细节敏感，属于深度学习理论中的泛化研究，对理解模型泛化机制有重要价值。
+### [Score: 8.0/10] Compress to Impress: Efficient LLM Adaptation Using a Single Gradient Step on 100 Samples
+- **Authors:** Shiva Sreeram, Alaa Maalouf, Pratyusha Sharma, Daniela Rus
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20800](https://arxiv.org/abs/2510.20800)
+- **Reason:** Introduces an efficient large language model (LLM) adaptation method via rank reduction and gradient steps, addressing practical deployment challenges—relevant to deep learning theory (network architecture, adaptation).
 Score: 8
 Field: 深度学习理论
 
-### [Score: 8.0/10] NeuroAda: Activating Each Neuron's Potential for Parameter-Efficient Fine-Tuning
-- **Authors:** Zhi Zhang, Yixian Shen, Congfeng Cao, Ekaterina Shutova
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.18940](https://arxiv.org/abs/2510.18940)
-- **Reason:** 提出NeuroAda参数高效微调方法，通过激活神经元潜力实现更优的下游任务适应，属于深度学习理论中的网络架构研究。
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] Weight Decay may matter more than muP for Learning Rate Transfer in Practice
-- **Authors:** Atli Kosson, Jeremy Welborn, Yang Liu, Martin Jaggi, Xi Chen
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19093](https://arxiv.org/abs/2510.19093)
-- **Reason:** 实证分析weight decay在学习率迁移中的作用，挑战muP的主导地位，属于深度学习理论中的优化器与泛化研究。
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] Natural Gradient VI: Guarantees for Non-Conjugate Models
-- **Authors:** Fangyuan Sun, Ilyas Fatkhullin, Niao He
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19163](https://arxiv.org/abs/2510.19163)
-- **Reason:** 研究自然梯度变分推断在非共轭模型中的理论保证，推导变分损失的相对光滑性条件，提出改进算法并证明收敛性，属于深度学习理论中的变分推断方向，对VI的理论发展有重要贡献。
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] Latent Space Factorization in LoRA
-- **Authors:** Shashi Kumar, Yacouba Kaloga, John Mitros, Petr Motlicek, Ina Kodrasi
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19640](https://arxiv.org/abs/2510.19640)
-- **Reason:** 提出FVAE-LoRA用VAE分解LoRA潜在空间为任务相关和残留信息，提升多任务性能和鲁棒性，属于深度学习理论中的VAE和network architecture方向（LoRA是参数高效微调架构），对LoRA改进有理论和实践价值。
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] Fast Inference via Hierarchical Speculative Decoding
-- **Authors:** Amir Globerson, Haim Kaplan, Yishay Mansour, Clara Mohri, Tal Schuster
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19705](https://arxiv.org/abs/2510.19705)
-- **Reason:** 提出分层推测解码算法HSD，通过堆叠draft模型减少Transformer生成延迟，理论推导预期延迟并验证加速效果，对深度学习理论中推理优化有重要贡献
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] When Do Transformers Learn Heuristics for Graph Connectivity?
-- **Authors:** Qilin Ye, Deqing Fu, Robin Jia, Vatsal Sharan
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19753](https://arxiv.org/abs/2510.19753)
-- **Reason:** 通过理论与实证分析Transformer学习图连通性的策略，揭示模型容量对学习算法的影响，对深度学习理论中网络架构（Transformer）能力分析有价值
-Score: 8
-Field: 深度学习理论
-
-### [Score: 8.0/10] Transformers are almost optimal metalearners for linear classification
-- **Authors:** Roey Magen, Gal Vardi
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19797](https://arxiv.org/abs/2510.19797)
-- **Reason:** 理论证明简化Transformer作为元学习器在 linear classification 中的近最优性，对深度学习理论中网络架构（Transformer元学习）有贡献
-Score: 8
-Field: 深度学习理论
-
-### [Score: 7.0/10] Beyond sparse denoising in frames: minimax estimation with a scattering transform
-- **Authors:** Nathanaël Cuvelle--Magar, Stéphane Mallat
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19612](https://arxiv.org/abs/2510.19612)
-- **Reason:** 研究分段Cα曲线的极小极大估计，涉及深度学习理论中的piece-wise linear相关问题，通过散射变换实现更优的信号估计。
+### [Score: 7.0/10] Efficient Multi-bit Quantization Network Training via Weight Bias Correction and Bit-wise Coreset Sampling
+- **Authors:** Jinhee Kim, Jae Jun An, Kang Eun Jeon, Jong Hwan Ko
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20673](https://arxiv.org/abs/2510.20673)
+- **Reason:** 提出权重偏差校正与bit-wise coreset采样，解决多bit量化训练的高开销问题，提升量化模型准确性与训练效率，属于深度学习理论下的网络架构优化研究。
 Score: 7
 Field: 深度学习理论
 
-### [Score: 7.0/10] Adaptive Distribution-aware Quantization for Mixed-Precision Neural Networks
-- **Authors:** Shaohang Jia, Zhiyong Huang, Zhi Yu, Mingyang Hou, Shuai Miao, Han Yang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19760](https://arxiv.org/abs/2510.19760)
-- **Reason:** 提出自适应分布感知量化方法优化混合精度神经网络，提升模型部署效率，属于深度学习理论中的网络架构优化方向。
+### [Score: 7.0/10] An Integrated Approach to Neural Architecture Search for Deep Q-Networks
+- **Authors:** Iman Rahmani, Saman Yazdannik, Morteza Tayefi, Jafar Roshanian
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19872](https://arxiv.org/abs/2510.19872)
+- **Reason:** 提出NAS-DQN将神经架构搜索整合到DRL训练中，动态调整网络架构提升性能，属于深度学习理论下的网络架构研究，实验优于固定架构基线。
 Score: 7
 Field: 深度学习理论
 
-### [Score: 7.0/10] Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients
-- **Authors:** Omar El mansouri, Mohamed El Amine Seddik, Salem Lahlou
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.18924](https://arxiv.org/abs/2510.18924)
-- **Reason:** 提出噪声鲁棒的GRPO框架，解决RLHF/RLVR中的奖励噪声问题，提供无偏梯度估计，属于深度学习理论中的优化器研究。
+### [Score: 7.0/10] Why Prototypes Collapse: Diagnosing and Preventing Partial Collapse in Prototypical Self-Supervised Learning
+- **Authors:** Gabriel Y. Arteaga, Marius Aasan, Rwiddhi Chakraborty, Martine Hjelkrem-Tan, Thalles Silva, Michael Kampffmeyer, Adín Ramírez Rivera
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20108](https://arxiv.org/abs/2510.20108)
+- **Reason:** 分析原型自监督学习中部分原型崩溃的原因，提出解耦训练策略消除崩溃，提升表示学习效果，属于深度学习理论中的自监督学习方向。
 Score: 7
 Field: 深度学习理论
 
-### [Score: 7.0/10] Category learning in deep neural networks: Information content and geometry of internal representations
-- **Authors:** Laurent Bonnasse-Gahot, Jean-Pierre Nadal
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19021](https://arxiv.org/abs/2510.19021)
-- **Reason:** 研究深度网络类别学习中的信息内容与表示几何，分析互信息与Fisher信息的作用，属于深度学习理论中的表示学习核心方向。
+### [Score: 7.0/10] KCM: KAN-Based Collaboration Models Enhance Pretrained Large Models
+- **Authors:** Guangyu Dai, Siliang Tang, Yueting Zhuang
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20278](https://arxiv.org/abs/2510.20278)
+- **Reason:** 提出基于KAN的协作模型KCM，解决大-小模型协作中的准确性下降、灾难性遗忘等问题，KAN作为替代MLP的网络架构，属于深度学习理论中的network architecture方向。
 Score: 7
 Field: 深度学习理论
-
-### [Score: 7.0/10] MetaCluster: Enabling Deep Compression of Kolmogorov-Arnold Network
-- **Authors:** Matthew Raffel, Adwaith Renjith, Lizhong Chen
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19105](https://arxiv.org/abs/2510.19105)
-- **Reason:** 提出MetaCluster方法压缩Kolmogorov-Arnold网络，解决参数膨胀问题，属于深度学习理论中的网络架构优化。
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Feature Space Adaptation for Robust Model Fine-Tuning
-- **Authors:** Peng Wang, Minghao Gu, Qiang Huang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19155](https://arxiv.org/abs/2510.19155)
-- **Reason:** 提出特征空间适应方法优化模型微调的鲁棒性，解决分布偏移问题，属于深度学习理论中的网络架构与泛化研究。
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Every Attention Matters: An Efficient Hybrid Architecture for Long-Context Reasoning
-- **Authors:** Ling Team, Bin Han, Caizhi Tang, Chen Liang, Donghao Zhang, Fan Yuan, Feng Zhu, Jie Gao, Jingyu Hu, Longfei Li, Meng Li, Mingyang Zhang, Peijie Jiang, Peng Jiao, Qian Zhao, Qingyuan Yang, Wenbo Shen, Xinxing Yang, Yalin Zhang, Yankun Ren, Yao Zhao, Yibo Cao, Yixuan Sun, Yue Zhang, Yuchen Fang, Zibin Lin, Zixuan Cheng, Jun Zhou
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19338](https://arxiv.org/abs/2510.19338)
-- **Reason:** 提出混合注意力架构整合线性和softmax注意力，降低长上下文推理的I/O和计算开销，属于深度学习理论中的network architecture方向，对长上下文模型的架构设计有实践指导。
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Optimization Benchmark for Diffusion Models on Dynamical Systems
-- **Authors:** Fabian Schaipp
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19376](https://arxiv.org/abs/2510.19376)
-- **Reason:** 基准测试Muon、SOAP、AdamW等优化算法在扩散模型训练中的性能，分析学习率调度和优化器的影响，属于深度学习理论中的optimizer方向，为扩散模型优化提供实践参考。
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Study of Training Dynamics for Memory-Constrained Fine-Tuning
-- **Authors:** Aël Quélennec, Nour Hezbri, Pavlo Mozharovskyi, Van-Tam Nguyen, Enzo Tartaglione
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19675](https://arxiv.org/abs/2510.19675)
-- **Reason:** 研究内存约束下的训练动态，提出TraDy方法通过动态通道选择和层重要性分析实现内存高效微调，对深度学习理论中训练动态与内存优化有价值
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] GaLLoP: Gradient-based Sparse Learning on Low-Magnitude Parameters
-- **Authors:** Anand Choudhary, Yasser Sulaiman, Lukas Mauch, Ghouthi Boukli Hacene, Fabien Cardinaux, Antoine Bosselut
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19778](https://arxiv.org/abs/2510.19778)
-- **Reason:** 提出GaLLoP稀疏微调方法，选择高梯度低预训练量级的参数，提升微调性能与稳定性，对深度学习理论中网络架构（稀疏训练）有价值
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] The Zero-Step Thinking: An Empirical Study of Mode Selection as Harder Early Exit in Reasoning Models
-- **Authors:** Yuqiao Tan, Shizhu He, Kang Liu, Jun Zhao
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19176](https://arxiv.org/abs/2510.19176)
-- **Reason:** 分析推理模型的模式选择（Long-CoT vs Short-CoT），指出其作为更难的Early Exit问题，对深度学习理论中网络架构（推理优化）有帮助
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Memo: Training Memory-Efficient Embodied Agents with Reinforcement Learning
-- **Authors:** Gunshi Gupta, Karmesh Yadav, Zsolt Kira, Yarin Gal, Rahaf Aljundi
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19732](https://arxiv.org/abs/2510.19732)
-- **Reason:** 提出Memo架构通过周期性总结token实现内存高效的Embodied代理训练，对深度学习理论中网络架构（内存高效模型）有价值
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Benchmarking World-Model Learning
-- **Authors:** Archana Warrier, Dat Nyugen, Michelangelo Naim, Moksh Jain, Yichao Liang, Karen Schroeder, Cambridge Yang, Joshua B. Tenenbaum, Sebastian Vollmer, Kevin Ellis, Zenna Tavares
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19788](https://arxiv.org/abs/2510.19788)
-- **Reason:** 提出WorldTest基准评估世界模型的多任务能力，对深度学习理论中世界模型研究有指导意义
-Score: 7
-Field: 深度学习理论
-
-### [Score: 7.0/10] Imitation Learning Policy based on Multi-Step Consistent Integration Shortcut Model
-- **Authors:** Yu Fang, Xinyu Wang, Xuehe Zhang, Wanli Xue, Mingwei Zhang, Shengyong Chen, Jie Zhao
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19356](https://arxiv.org/abs/2510.19356)
-- **Reason:** 针对flow-matching方法的高推理时间问题，提出多步一致集成捷径模型及自适应梯度分配策略，属于深度学习理论中的模型训练优化方法，解决了推理速度与性能的平衡问题。
-Score: 7
-Field: 深度学习理论
-
-<h2 id='自动驾驶与大模型'>自动驾驶与大模型</h2>
-
-### [Score: 8.0/10] Robust Driving QA through Metadata-Grounded Context and Task-Specific Prompts
-- **Authors:** Seungjun Yu, Junsung Park, Youngsun Lim, Hyunjung Shim
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19001](https://arxiv.org/abs/2510.19001)
-- **Reason:** 针对自动驾驶场景提出两阶段视觉语言QA系统，基于多模态大模型Qwen2.5-VL-32B，结合元数据和任务特定提示提升回答可靠性，直接关联自动驾驶与大模型方向。
-Score: 8
-Field: 自动驾驶与大模型
-
-### [Score: 8.0/10] Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks
-- **Authors:** Kai Zeng, Zhanqian Wu, Kaixin Xiong, Xiaobao Wei, Xiangyu Guo, Zhenxin Zhu, Kalok Ho, Lijun Zhou, Bohan Zeng, Ming Lu, Haiyang Sun, Bing Wang, Guang Chen, Hangjun Ye, Wentao Zhang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19195](https://arxiv.org/abs/2510.19195)
-- **Reason:** 提出Dream4Drive框架，利用驾驶世界模型生成多视图合成数据，提升自动驾驶感知任务的性能，直接关联自动驾驶与大模型方向。
-Score: 8
-Field: 自动驾驶与大模型
-
-### [Score: 8.0/10] From Forecasting to Planning: Policy World Model for Collaborative State-Action Prediction
-- **Authors:** Zhida Zhao, Talas Fu, Yifan Wang, Lijun Wang, Huchuan Lu
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19654](https://arxiv.org/abs/2510.19654)
-- **Reason:** 提出Policy World Model整合自动驾驶的世界建模与轨迹规划，实现更可靠的状态-动作预测，属于自动驾驶与大模型的核心方向。
-Score: 8
-Field: 自动驾驶与大模型
-
-### [Score: 7.0/10] SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion
-- **Authors:** Xiaozhi Li, Huijun Di, Jian Li, Feng Liu, Wei Liang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19215](https://arxiv.org/abs/2510.19215)
-- **Reason:** 提出表面拟合引导的多模态融合框架，优化自动驾驶中的3D目标检测，结合4D雷达与相机数据，属于自动驾驶与大模型方向。
-Score: 7
-Field: 自动驾驶与大模型
-
-### [Score: 7.0/10] Background Fades, Foreground Leads: Curriculum-Guided Background Pruning for Efficient Foreground-Centric Collaborative Perception
-- **Authors:** Yuheng Wu, Xiangbo Gao, Quang Tau, Zhengzhong Tu, Dongman Lee
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19250](https://arxiv.org/abs/2510.19250)
-- **Reason:** 针对自动驾驶协同感知的带宽问题，提出课程学习引导的背景剪枝框架，优化前景特征的上下文融合，属于自动驾驶与大模型方向。
-Score: 7
-Field: 自动驾驶与大模型
-
-### [Score: 7.0/10] Can You Trust What You See? Alpha Channel No-Box Attacks on Video Object Detection
-- **Authors:** Ariana Yi, Ce Zhou, Liyang Xiao, Qiben Yan
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19574](https://arxiv.org/abs/2510.19574)
-- **Reason:** 提出alpha通道的无框 adversarial攻击，针对视频目标检测系统，揭示自动驾驶感知的安全漏洞，属于自动驾驶与大模型方向。
-Score: 7
-Field: 自动驾驶与大模型
-
-### [Score: 7.0/10] VGD: Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction
-- **Authors:** Junhong Lin, Kangli Wang, Shunzhou Wang, Songlin Fan, Ge Li, Wei Gao
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19578](https://arxiv.org/abs/2510.19578)
-- **Reason:** 提出视觉几何高斯splatting方法解决自动驾驶前馈环视场景重建问题，属于自动驾驶与大模型的核心应用方向。
-Score: 7
-Field: 自动驾驶与大模型
-
-### [Score: 7.0/10] Pragmatic Heterogeneous Collaborative Perception via Generative Communication Mechanism
-- **Authors:** Junfei Zhou, Penglin Dai, Quanmin Wei, Bingyi Liu, Xiao Wu, Jianping Wang
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19618](https://arxiv.org/abs/2510.19618)
-- **Reason:** 提出生成式通信机制解决自动驾驶异质多智能体协作感知问题，提升感知效率与泛化能力，属于自动驾驶与大模型的关键技术研究。
-Score: 7
-Field: 自动驾驶与大模型
 
 <h2 id='深度学习可解释性'>深度学习可解释性</h2>
 
-### [Score: 8.0/10] LyTimeT: Towards Robust and Interpretable State-Variable Discovery
-- **Authors:** Kuai Yu, Crystal Su, Xiang Liu, Judah Goldfeder, Mingyuan Shao, Hod Lipson
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19716](https://arxiv.org/abs/2510.19716)
-- **Reason:** 提出LyTimeT框架从高维视频中提取可解释的动态系统状态变量，结合时空注意力与稳定性约束，属于深度学习可解释性的核心研究。
+### [Score: 9.0/10] Towards the Formalization of a Trustworthy AI for Mining Interpretable Models explOiting Sophisticated Algorithms
+- **Authors:** Riccardo Guidotti, Martina Cinquini, Marta Marchiori Manerba, Mattia Setzu, Francesco Spinnato
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20621](https://arxiv.org/abs/2510.20621)
+- **Reason:** Formalizes a framework for generating interpretable-by-design models (feature importance, rule-based, instance-based) and integrates ethical properties (causality, fairness, privacy), directly contributing to deep learning explainability via white-box model design.
+Score: 9
+Field: 深度学习可解释性
+
+### [Score: 8.0/10] ShapeX: Shapelet-Driven Post Hoc Explanations for Time Series Classification Models
+- **Authors:** Bosong Huang, Ming Jin, Yuxuan Liang, Johan Barthelemy, Debo Cheng, Qingsong Wen, Chenghao Liu, Shirui Pan
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20084](https://arxiv.org/abs/2510.20084)
+- **Reason:** 提出ShapeX框架，通过Shapelet分割时间序列并使用Shapley值评估显著性，解决时间序列分类模型的事后解释问题，直接关联深度学习可解释性中的Shapley value方向。
 Score: 8
 Field: 深度学习可解释性
 
-### [Score: 8.0/10] Empowering Decision Trees via Shape Function Branching
-- **Authors:** Nakul Upadhya, Eldan Cohen
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19040](https://arxiv.org/abs/2510.19040)
-- **Reason:** 提出Shape Generalized Tree扩展传统决策树，通过可学习形状函数实现可解释的非线性分割，属于深度学习可解释性中的white-box模型研究。
+### [Score: 8.0/10] TRUST: A Decentralized Framework for Auditing Large Language Model Reasoning
+- **Authors:** Morris Yu-Chao Huang, Zhen Tan, Mohan Zhang, Pingzhi Li, Zhuo Zhang, Tianlong Chen
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20188](https://arxiv.org/abs/2510.20188)
+- **Reason:** Proposes a decentralized auditing framework for large language model (LLM) reasoning, addressing faithfulness, transparency, and robustness—directly relevant to deep learning explainability (white-box explanation).
 Score: 8
 Field: 深度学习可解释性
 
-### [Score: 8.0/10] Interpret Policies in Deep Reinforcement Learning using SILVER with RL-Guided Labeling: A Model-level Approach to High-dimensional and Multi-action Environments
-- **Authors:** Yiyu Qian, Su Nguyen, Chao Chen, Qinyue Zhou, Liyuan Zhao
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19244](https://arxiv.org/abs/2510.19244)
-- **Reason:** 基于Shapley值扩展SILVER框架到高维多动作RL环境，通过RL引导标注生成行为一致的边界数据集，训练替代模型解释RL政策，属于深度学习可解释性中的Shapley值和white-box explanation方向，解决原有方法的局限性。
+### [Score: 8.0/10] What Defines Good Reasoning in LLMs? Dissecting Reasoning Steps with Multi-Aspect Evaluation
+- **Authors:** Heejin Do, Jaehui Hwang, Dongyoon Han, Seong Joon Oh, Sangdoo Yun
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20603](https://arxiv.org/abs/2510.20603)
+- **Reason:** Proposes a causal stepwise evaluation (CaSE) framework to measure LLM reasoning quality by decomposing it into relevance and coherence, enabling granular assessment of reasoning processes which advances deep learning explainability.
 Score: 8
 Field: 深度学习可解释性
 
-### [Score: 8.0/10] CONFEX: Uncertainty-Aware Counterfactual Explanations with Conformal Guarantees
-- **Authors:** Aman Bilkhoo (Department of Informatics, King's College London), Milad Kazemi (Department of Informatics, King's College London), Nicola Paoletti (Department of Informatics, King's College London), Mehran Hosseini (Department of Informatics, King's College London, Department of Computer Science, University of Manchester)
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19754](https://arxiv.org/abs/2510.19754)
-- **Reason:** 提出CONFEX方法，结合保角预测与混合整数线性规划生成带不确定性保证的反事实解释，解决可解释性中的不确定性问题，对深度学习可解释性有贡献
-Score: 8
-Field: 深度学习可解释性
-
-### [Score: 8.0/10] RLIE: Rule Generation with Logistic Regression, Iterative Refinement, and Evaluation for Large Language Models
-- **Authors:** Yang Yang, Hua XU, Zhangyi Hu, Yutao Yue
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19698](https://arxiv.org/abs/2510.19698)
-- **Reason:** 提出RLIE框架结合LLM与逻辑回归生成加权规则，分析LLM在归纳推理中的潜力与局限，对深度学习可解释性中神经符号推理有贡献
-Score: 8
-Field: 深度学习可解释性
-
-### [Score: 7.0/10] Explainable Face Presentation Attack Detection via Ensemble-CAM
-- **Authors:** Rashik Shadman, M G Sarwar Murshed, Faraz Hussain
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19695](https://arxiv.org/abs/2510.19695)
-- **Reason:** 提出Ensemble-CAM方法为深度学习-based人脸presentation attack检测提供视觉解释，属于深度学习可解释性的应用研究。
+### [Score: 7.0/10] The Shape of Reasoning: Topological Analysis of Reasoning Traces in Large Language Models
+- **Authors:** Xue Wen Tan, Nathaniel Tan, Galen Lee, Stanley Kok
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20665](https://arxiv.org/abs/2510.20665)
+- **Reason:** Uses topological data analysis (TDA) to characterize the geometry of LLM reasoning traces, providing a novel automated method to evaluate reasoning quality which supports deep learning explainability.
 Score: 7
 Field: 深度学习可解释性
 
-### [Score: 7.0/10] InvarGC: Invariant Granger Causality for Heterogeneous Interventional Time Series under Latent Confounding
-- **Authors:** Ziyi Zhang, Shaogang Ren, Xiaoning Qian, Nick Duffield
-- **Published:** 2025-10-23
-- **Link:** [https://arxiv.org/abs/2510.19138](https://arxiv.org/abs/2510.19138)
-- **Reason:** 提出InvarGC方法解决潜在混淆下的异质干预时间序列因果推断，属于深度学习可解释性中的因果解释研究。
+<h2 id='自动驾驶与大模型'>自动驾驶与大模型</h2>
+
+### [Score: 8.0/10] AutoScape: Geometry-Consistent Long-Horizon Scene Generation
+- **Authors:** Jiacheng Chen, Ziyu Jiang, Mingfu Liang, Bingbing Zhuang, Jong-Chyi Su, Sparsh Garg, Ying Wu, Manmohan Chandraker
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20726](https://arxiv.org/abs/2510.20726)
+- **Reason:** 提出RGB-D扩散模型生成几何一致的长 horizon 驾驶场景，通过关键帧引导与几何约束提升场景真实性，属于自动驾驶与大模型下的场景生成研究，实验性能优异。
+Score: 8
+Field: 自动驾驶与大模型
+
+### [Score: 8.0/10] Dino-Diffusion Modular Designs Bridge the Cross-Domain Gap in Autonomous Parking
+- **Authors:** Zixuan Wu, Hengyuan Zhang, Ting-Hsuan Chen, Yuliang Guo, David Paz, Xinyu Huang, Liu Ren
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20335](https://arxiv.org/abs/2510.20335)
+- **Reason:** Proposes a domain-agnostic autonomous parking pipeline integrating visual foundation models with diffusion-based planning, addressing cross-domain robustness in autonomous driving using large models.
+Score: 8
+Field: 自动驾驶与大模型
+
+<h2 id='autonomous-driving-and-large-models'>Autonomous driving and large models</h2>
+
+### [Score: 7.0/10] FutrTrack: A Camera-LiDAR Fusion Transformer for 3D Multiple Object Tracking
+- **Authors:** Martha Teiko Teye, Ori Maoz, Matthias Rottmann
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.19981](https://arxiv.org/abs/2510.19981)
+- **Reason:** Proposes a camera-LiDAR fusion transformer for 3D multi-object tracking, addressing key challenges in autonomous driving (e.g., occlusion, viewpoint changes). Improves robustness over single-sensor methods and achieves strong performance on nuScenes/KITTI.
 Score: 7
-Field: 深度学习可解释性
+Field: Autonomous driving and large models
+
+### [Score: 7.0/10] Physics-Guided Fusion for Robust 3D Tracking of Fast Moving Small Objects
+- **Authors:** Prithvi Raj Singh, Raju Gottumukkala, Anthony S. Maida, Alan B. Barhorst, Vijaya Gopu
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20126](https://arxiv.org/abs/2510.20126)
+- **Reason:** Combines deep learning with physics-based kinematics to track fast-moving small objects (e.g., racquetballs) in 3D. Reduces average displacement error by 70% vs. Kalman filters, relevant to autonomous robot perception.
+Score: 7
+Field: Autonomous driving and large models
+
+### [Score: 7.0/10] Evaluating Video Models as Simulators of Multi-Person Pedestrian Trajectories
+- **Authors:** Aaron Appelle, Jerome P. Lynch
+- **Published:** 2025-10-24
+- **Link:** [https://arxiv.org/abs/2510.20182](https://arxiv.org/abs/2510.20182)
+- **Reason:** Proposes a protocol to evaluate video models as pedestrian trajectory simulators, critical for autonomous driving's multi-agent behavior prediction. Reveals strengths/limitations of current T2V/I2V models in crowd dynamics.
+Score: 7
+Field: Autonomous driving and large models
 

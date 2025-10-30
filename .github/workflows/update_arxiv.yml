@@ -48,7 +48,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           # 将所有生成的文件添加到暂存区
-          git add README.md index.html RAW.md
+          git add .
           
           # 检查是否有文件变动
           if git diff-index --quiet HEAD; then

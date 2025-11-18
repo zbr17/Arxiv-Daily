@@ -4,10 +4,13 @@
 请帮我从这个列表中，根据我的研究方向推荐有价值的论文。
 
 # 我的主要研究方向（高优先级）
-（1）深度学习理论：optimizer、piece-wise linear、VQ-VAE、VAE、network architecture等
-（2）深度学习可解释性：Shapley value、white-box explanation等
-（3）自动驾驶与大模型：occupancy prediction、GUI Grounding、multi-modal large model等
-（4）多模态大模型：GUI Agent、GUI Grounding、tokenizer、image generation、image understanding等
+（1）深度学习理论：optimizer, piece-wise linear, network architecture等
+（2）深度学习可解释性：Shapley value, white-box explanation等
+（3）原生多模态大模型：native multi-modal, transfusion, multi-modal large model, tokenizer, image generation, image understanding等
+（4）高效大模型训练与推理：efficient LLM training, LLM infra, high compression等
+（5）多模态智能体：GUI Agent, GUI grounding, GUI navigation等
+（6）大模型安全与对齐：alignment, LLM safety等
+（7）大模型新技术：diffusion LLM等
 
 # 我不太关注的领域（低优先级）
 （1）医疗健康
@@ -16,8 +19,11 @@
 # 重要约束：研究方向分类必须使用以下四个中文名称之一
 - 深度学习理论
 - 深度学习可解释性  
-- 自动驾驶与大模型
-- 多模态大模型
+- 原生多模态大模型
+- 高效大模型训练与推理
+- 多模态智能体
+- 大模型安全与对齐
+- 大模型新技术
 
 # 推荐要求
 1.  仔细审查下面的论文列表。

@@ -3,3 +3,4 @@ pytz
 volcengine-python-sdk[ark]
 scikit-learn
 numpy
+sniffio

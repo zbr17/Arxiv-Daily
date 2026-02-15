@@ -5,7 +5,7 @@ from web_generator import WebGenerator
 
 # 配置项
 HISTORY_DIR = "./history"
-MODEL_ID = "doubao-seed-1-6-thinking-250715"
+MODEL_ID = "deepseek-v3-2-251201"
 
 def main():
     logging.info("=== ArXiv 每日推荐系统启动 ===")
